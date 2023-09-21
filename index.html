@@ -1,20 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech2etc Ecommerce Tutorial</title>
+    <!-- Add this line to the <head> section of your HTML document -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+  <body>
+    <div id="status"></div>
+    <!-- Header Section -->
+    <section id="header">
+      <a href="#"><img src="./img/logo.png"</a>
+      <div>
+        <ul id="navbar">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contect.html">Contect</a></li>
+          <li><a id="lg-bag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div class="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
 
-    <body>
+      </div>
+    </section>
+    
+    <section id="hero">
+      <h4>Trade in offer</h4>
+      <h2>super vlue detain</h2>
+      <p>On all product</p>
+      <p>Save me with coupens and up to 70% off</p>
+      <button>Shop Now</button>
+    </section>
+    <!--5 Support Section -->
+    <section id="feature" class="section-p1">
+      <div class="fe-box">
+        <img src="img/features/f1.png" />
+        <h6>Free Shipping</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/features/f2.png" />
+        <h6>Online Order</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/features/f3.png" />
+        <h6>Save Money</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/features/f4.png" />
+        <h6>Promotions</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/features/f5.png" />
+        <h6>Happy Sell</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/features/f6.png" />
+        <h6>F24/7 Support</h6>
+      </div>
+    </section>
 
+    <!-- Feature Product Section -->
+    <section id="product1" class="section-p1">
+      <h2>Feature Products</h2>
+      <p>Summer colection new modren design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="./img//products/f1.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/f2.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/f3.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/f4.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/f5.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/f6.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/f7.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/f8.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+      </div>
+    </section>
+    <!-- Banner -->
+    <section id="banner" class="section-p1">
+      <h4>Repair Services</h4>
+      <h2>Up to <span>70% off</span> all t-shirt and asseries</h2>
+      <button class="normal">Explore Morw</button>
+    </section>
+    <!-- New Arrivals -->
+    <section id="product1" class="section-p1">
+      <h2>New Arrivals</h2>
+      <p>Summer colection new modren design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="./img//products/n1.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/n2.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/n3.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/n4.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/n5.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/n6.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/n7.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+        <div class="pro">
+          <img src="./img//products/n8.jpg" />
+          <div class="des">
+            <span>addidas</span>
+            <h5>Cartoon Artist T-Shirt</h5>
+            <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <i class="fa-solid fa-bag-shopping cart"></i>
+        </div>
+      </div>
+    </section>
+<!-- Banner Box BG -->
+    <section id="sm-banner" class="section-p1">
+      <div class="banner-box">
+        <h4>Crazy Deals</h4>
+        <h2>Buy 1 Get 1 Free</h2>
+        <span>The best clasic dress is on sale at cara</span>
+        <button class="white">Learn More</button>
+      </div>
+      <div class="banner-box banner-box2">
+        <h4>Spring Summer</h4>
+        <h2>Upcomming Season</h2>
+        <span>The best clasic dress is on sale at cara</span>
+        <button class="white">Learn More</button>
+      </div>
+    </section>
+    <!-- Seasonal -->
+    <section id="banner3" class="section-p1">
+      <div class="banner-box">
+        <h2>Seasonal Sales</h2>
+        <h3>Winter collection -50% OFF</h3>
+      </div>
+      <div class="banner-box banner-box2">
+        <h2>Seasonal Sales</h2>
+        <h3>Winter collection -50% OFF</h3>
+      </div>
+      <div class="banner-box banner-box3">
+        <h2>Seasonal Sales</h2>
+        <h3>Winter collection -50% OFF</h3>
+      </div>
+    </section>
+    <!-- Banner Blue -->
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Signup For News letter</h4>
+        <p>Get Email Update about our latest shop and <span>Special Offer</span></p>
+      </div>
+      <div class="form">
+        <input type="email" placeholder="Your Email Address" />
+        <button class="normal">Sign up</button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="section-p1">
+      <div class="col">
+        <img sec="./img/logo.png" class="logo" />
+        <h4>Contect</h4>
+        <p><strong>Address : </strong> Akbar plaza second Floor Mandi Bahauddin</p>
+        <p><strong>Phone : </strong> +923 344050486</p>
+        <p><strong>Hours : </strong> 09 : 00 , 18:00 , Mon || Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
 
-        <script src="script.js"></script>
-    </body>
+      <div class="col">
 
+        <h4>My Account</h4>
+        <a href="#">About  In</a>
+        <a href="#">Delevert Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contect</a>
+      </div>
+      <div class="col">
+
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p> From app store in our google play </p>
+        <div class="row">
+            <img src="./img/pay/app.jpg" />
+            <img src="./img/pay/play.jpg" />
+        </div>
+        <p> Secure Payment Gateways</p>
+        <img src="./img/pay/pay.png" />
+               </div>
+               <div class="copyright">
+                <p><small> copyright</small> 2023, Apex Tecnical training institute </p>
+               </div>
+    </footer>
+
+ 
+
+    <script src="script.js"></script>
+  </body>
 </html>
